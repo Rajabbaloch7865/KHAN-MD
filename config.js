@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KHAN-MD~BbMBkAIB#Y0K5hHrEj8lqG7RmTl0ADJ6UreYwKmeSgSo5QAzWAOc",
+SESSION_ID: process.env.SESSION_ID || "KHAN-MD~QLERWSjL#kvQrYbmNnbDlOgB96mGBBpAaXFMkkHUdY94eeh8VquM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY KHAN-MD 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY RAJAB-MD 🤍*",
 // set the auto reply massage on status reply  
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
